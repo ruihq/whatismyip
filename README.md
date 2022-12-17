@@ -4,7 +4,8 @@
 [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
 
-Check your IP Address by going to this link!
+Check your IPV4 Address And IPV6 Address by going to this link!
+Check CHANGELOG.md to see the history ;-;
 
 # Link 🌐
 https://kyleearroyo.github.io/whatismyip
