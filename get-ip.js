@@ -32,32 +32,3 @@ async function getIPAddresses() {
 
 // Call the async function
 getIPAddresses();
-
-<!---DarkModeLightModeToggle--->
-const toggle = document.getElementById('dark-mode-toggle');
-
-toggle.addEventListener('change', (event) => {
-  if (event.target.checked) {
-    applyDarkMode();
-    localStorage.setItem('darkMode', 'true');
-  } else {
-    applyLightMode();
-    localStorage.setItem('darkMode', 'false');
-  }
-});
-
-if (localStorage.getItem('darkMode') === 'true') {
-  toggle.checked = true;
-  applyDarkMode();
-} else {
-  toggle.checked = false;
-  applyLightMode();
-}
-
-function applyDarkMode() {
-  document.body.classList.add('dark-mode');
-}
-
-function applyLightMode() {
-  document.body.classList.remove('dark-mode');
-}
