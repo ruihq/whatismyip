@@ -39,3 +39,15 @@ div {
     margin: 20px;
 }
 
+/* Add styles for the light mode here */
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+      /* Add styles for the dark mode here */
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
