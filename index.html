@@ -1,21 +1,22 @@
-<!-- HTML file -->
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>What is my IP?</title>
-        <meta name="description" content="This website tells you what is your ip!">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+    <title>What Is My IP</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <center>
     <h1>What Is My IP</h1>
-    <p>Your IP address is: <span id="ip-address"></span></p>
+    <p>Your IPv4 address is: <span id="ipv4-address"></span></p>
+    <p>Your IPv6 address is: <span id="ipv6-address"></span></p>
 
-    <!-- Include the JavaScript file -->
+    <!-- Add a loading screen -->
+    <div id="loading" style="display: none;">Loading...</div>
+
     <script src="get-ip.js"></script>
-    </center>
+    <div><p>If theres an issue with my coding ;-; report an issue here</p>
+    <a class="button" href="https://github.com/kyleearroyo/whatismyip/">whatismyip github repository</a>
+    <p>©Kylee Arroyo. All rights reserved.</p></div>
+  </center>
   </body>
 </html>
