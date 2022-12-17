@@ -6,7 +6,7 @@
 
 Check your IPV4 Address And IPV6 Address by going to this link!
 
-Check CHANGELOG.md to see the history ;-;
+Check <a href="https://github.com/kyleearroyo/whatismyip/blob/main/CHANGELOG.md">CHANGELOG.md</a> to see the history ;-;
 
 # Link 🌐
 https://kyleearroyo.github.io/whatismyip
