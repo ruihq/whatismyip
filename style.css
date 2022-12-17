@@ -37,16 +37,4 @@ div {
     margin: 20px;
 }
 
-/* Light mode styles */
-body {
-  background-color: white;
-  color: black;
-}
-
-/* Dark mode styles */
-body.dark-mode {
-  background-color: black;
-  color: white;
-}
-
 
