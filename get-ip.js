@@ -34,21 +34,21 @@ async function getIPAddresses() {
 getIPAddresses();
 
 <!---DarkModeLightModeToggle--->
-// Get a reference to the toggle button
-      const toggleButton = document.getElementById('toggle-button');
+const toggle = document.getElementById('dark-mode-toggle');
 
-      // Set a click event listener for the toggle button
-      toggleButton.addEventListener('click', function() {
-        // Get the current body class
-        const currentMode = document.body.className;
+toggle.addEventListener('change', (event) => {
+  if (event.target.checked) {
+    applyDarkMode();
+  } else {
+    applyLightMode();
+  }
+});
 
-        // If the body has the "light-mode" class, change it to "dark-mode"
-        if (currentMode === 'light-mode') {
-          document.body.className = 'dark-mode';
-        }
-        // Otherwise, if the body has the "dark-mode" class, change it to "light-mode"
-        else if (currentMode === 'dark-mode') {
-          document.body.className = 'light-mode';
-        }
-      });
+function applyDarkMode() {
+  document.body.classList.add('dark-mode');
+}
+
+function applyLightMode() {
+  document.body.classList.remove('dark-mode');
+}
 
