@@ -20,3 +20,6 @@ Open-source software may be developed in a collaborative public manner.
 give me credit ;-;
 
 YES THIS PROJECT IS OPEN SOURCE!
+
+# Owner
+All of the files are owned by Rui Naigel Reogo
