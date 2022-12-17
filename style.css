@@ -37,11 +37,6 @@ div {
     margin: 20px;
 }
 
-.dark-mode {
-    background-color: #121212;
-    color: white;
-}
-
 /* Light mode styles */
 body {
   background-color: white;
