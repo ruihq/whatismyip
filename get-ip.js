@@ -1,4 +1,3 @@
-*/ coded by rui /*
 // Create an async function to retrieve the user's IP addresses
 async function getIPAddresses() {
   // Show the loading screen
@@ -32,3 +31,4 @@ async function getIPAddresses() {
 
 // Call the async function
 getIPAddresses();
+
