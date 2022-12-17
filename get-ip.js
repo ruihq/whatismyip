@@ -17,7 +17,7 @@ async function getIPAddresses() {
   // Call the api6.ipify.org API to get the user's IPv6 address
   let ipv6Address = "Error retrieving IPv6 address";
   try {
-    const response2 = await fetch("http://api6.ipify.org/?format=json");
+    const response2 = await fetch("https://api6.ipify.org/?format=json");
     const data2 = await response2.json();
     ipv6Address = data2.ip;
   } catch (error) {
