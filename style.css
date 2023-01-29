@@ -37,3 +37,9 @@ div {
     margin: 20px;
 }
 
+@media (max-width: 600px) {
+        .menu, .main, .right {
+          width: 100%;
+        }
+      }
+
