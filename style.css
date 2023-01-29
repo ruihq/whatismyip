@@ -29,14 +29,6 @@
     cursor: pointer;
 }
 
-div {
-    background-color: lightgreen;
-    width: 300px;
-    border: 15px solid lightblue;
-    padding: 50px;
-    margin: 20px;
-}
-
 @media (max-width: 600px) {
         .menu, .main, .right {
           width: 100%;
